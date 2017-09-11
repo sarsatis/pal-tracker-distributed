@@ -25,19 +25,19 @@ public class FlowTest {
     private ApplicationServer timesheetsServer = new ApplicationServer(workingDir + "/../applications/timesheets-server/build/libs/timesheets-server.jar", "8884");
 
     private String registrationServerUrl(String path) {
-        return "http://localhost:8883" + path;
+        return "http://registration-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private String allocationsServerUrl(String path) {
-        return "http://localhost:8881" + path;
+        return "http://allocations-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private String backlogServerUrl(String path) {
-        return "http://localhost:8882" + path;
+        return "http://backlog-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private String timesheetsServerUrl(String path) {
-        return "http://localhost:8884" + path;
+        return "http://timesheets-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private long findResponseId(HttpClient.Response response) {
