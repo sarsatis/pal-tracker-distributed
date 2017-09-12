@@ -29,15 +29,15 @@ public class FlowTest {
     }
 
     private String allocationsServerUrl(String path) {
-        return "http://allocations-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
+        return "http://registration-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private String backlogServerUrl(String path) {
-        return "http://backlog-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
+        return "http://registration-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private String timesheetsServerUrl(String path) {
-        return "http://timesheets-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
+        return "http://registration-pal-sarsatis.apps.longs.pal.pivotal.io" + path;
     }
 
     private long findResponseId(HttpClient.Response response) {

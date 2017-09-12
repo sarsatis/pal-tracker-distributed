@@ -43,6 +43,7 @@ public class ApplicationServer {
                 .put("REGISTRATION_SERVER_RIBBON_LISTOFSERVERS", "http://localhost:8883")
                 .build()
         );
+        
     }
 
     public void stop() {
